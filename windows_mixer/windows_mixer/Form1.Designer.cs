@@ -55,8 +55,8 @@
             // 
             this.volumeMeter1.Amplitude = 0F;
             this.volumeMeter1.Location = new System.Drawing.Point(65, 191);
-            this.volumeMeter1.MaxDb = 18F;
-            this.volumeMeter1.MinDb = -60F;
+            this.volumeMeter1.MaxDb = 80F;
+            this.volumeMeter1.MinDb = 0F;
             this.volumeMeter1.Name = "volumeMeter1";
             this.volumeMeter1.Size = new System.Drawing.Size(27, 233);
             this.volumeMeter1.TabIndex = 0;
@@ -70,8 +70,8 @@
             // 
             this.volumeMeter2.Amplitude = 0F;
             this.volumeMeter2.Location = new System.Drawing.Point(173, 191);
-            this.volumeMeter2.MaxDb = 18F;
-            this.volumeMeter2.MinDb = -60F;
+            this.volumeMeter2.MaxDb = 80F;
+            this.volumeMeter2.MinDb = 0F;
             this.volumeMeter2.Name = "volumeMeter2";
             this.volumeMeter2.Size = new System.Drawing.Size(27, 233);
             this.volumeMeter2.TabIndex = 1;
@@ -81,8 +81,8 @@
             // 
             this.volumeMeter3.Amplitude = 0F;
             this.volumeMeter3.Location = new System.Drawing.Point(284, 191);
-            this.volumeMeter3.MaxDb = 18F;
-            this.volumeMeter3.MinDb = -60F;
+            this.volumeMeter3.MaxDb = 80F;
+            this.volumeMeter3.MinDb = 0F;
             this.volumeMeter3.Name = "volumeMeter3";
             this.volumeMeter3.Size = new System.Drawing.Size(27, 233);
             this.volumeMeter3.TabIndex = 2;
@@ -92,8 +92,8 @@
             // 
             this.volumeMeter4.Amplitude = 0F;
             this.volumeMeter4.Location = new System.Drawing.Point(391, 191);
-            this.volumeMeter4.MaxDb = 18F;
-            this.volumeMeter4.MinDb = -60F;
+            this.volumeMeter4.MaxDb = 80F;
+            this.volumeMeter4.MinDb = 0F;
             this.volumeMeter4.Name = "volumeMeter4";
             this.volumeMeter4.Size = new System.Drawing.Size(27, 233);
             this.volumeMeter4.TabIndex = 3;
@@ -103,8 +103,8 @@
             // 
             this.volumeMeter5.Amplitude = 0F;
             this.volumeMeter5.Location = new System.Drawing.Point(496, 191);
-            this.volumeMeter5.MaxDb = 18F;
-            this.volumeMeter5.MinDb = -60F;
+            this.volumeMeter5.MaxDb = 80F;
+            this.volumeMeter5.MinDb = 0F;
             this.volumeMeter5.Name = "volumeMeter5";
             this.volumeMeter5.Size = new System.Drawing.Size(27, 233);
             this.volumeMeter5.TabIndex = 4;
@@ -114,8 +114,8 @@
             // 
             this.volumeMeter6.Amplitude = 0F;
             this.volumeMeter6.Location = new System.Drawing.Point(610, 191);
-            this.volumeMeter6.MaxDb = 18F;
-            this.volumeMeter6.MinDb = -60F;
+            this.volumeMeter6.MaxDb = 80F;
+            this.volumeMeter6.MinDb = 0F;
             this.volumeMeter6.Name = "volumeMeter6";
             this.volumeMeter6.Size = new System.Drawing.Size(27, 233);
             this.volumeMeter6.TabIndex = 5;

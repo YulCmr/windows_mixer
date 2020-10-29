@@ -19,8 +19,10 @@ namespace windows_mixer
 {
     public partial class Form1 : Form
     {
+        //public List<int> volpeak = new List<int>();
         public List<Label> labels = new List<Label>();
         public List<NAudio.Gui.VolumeMeter> volumeMeters = new List<NAudio.Gui.VolumeMeter>();
+        int[] volpeak = { 0, 0, 0, 0, 0, 0 };
 
         public Form1()
         {
@@ -39,6 +41,8 @@ namespace windows_mixer
             volumeMeters.Add(volumeMeter4);
             volumeMeters.Add(volumeMeter5);
             volumeMeters.Add(volumeMeter6);
+
+            
 
             /*MMDeviceEnumerator devEnum = new MMDeviceEnumerator();
             MMDevice defaultDevice = devEnum.GetDefaultAudioEndpoint(DataFlow.Render, Role.Multimedia);
@@ -68,6 +72,12 @@ namespace windows_mixer
 
             //clean up
             devEnum.Dispose();*/
+            for(int i= 0; i < 6; i++)
+            {
+                volumeMeters[i].Amplitude = volpeak[i];
+                Console.WriteLine(volpeak[i]);
+            }
+            
         }
 
         private static AudioSessionManager2 GetDefaultAudioSessionManager2(DataFlow dataFlow)
@@ -76,7 +86,7 @@ namespace windows_mixer
             {
                 using (var device = enumerator.GetDefaultAudioEndpoint(dataFlow, Role.Multimedia))
                 {
-                    Console.WriteLine("DefaultDevice: " + device.FriendlyName);
+                    //Console.WriteLine("DefaultDevice: " + device.FriendlyName);
                     var sessionManager = AudioSessionManager2.FromMMDevice(device);
                     return sessionManager;
                 }
@@ -117,13 +127,15 @@ namespace windows_mixer
                             using (var session2 = session.QueryInterface<AudioSessionControl2>())
                             using (var audioMeterInformation = session.QueryInterface<AudioMeterInformation>())
                             {
-                                peak = (int)audioMeterInformation.GetPeakValue()*100;
+                                peak = (int)(audioMeterInformation.GetPeakValue()*100);
+                                //Console.WriteLine(peak);
                                 pName = session2.Process.ProcessName;
                                 set_label(i, pName);
-                                set_peak(i, peak);
+                                //set_peak(i, peak);
+                                volpeak[i] = peak;
                                 //Console.WriteLine(session2.Process.MainWindowTitle);
                                 //Console.WriteLine(session2.Process.ProcessName);
-                                Console.WriteLine(audioMeterInformation.GetPeakValue()*100);
+                                //Console.WriteLine(peak);
                                 if (i < 6) i++;
                             }
                         }
