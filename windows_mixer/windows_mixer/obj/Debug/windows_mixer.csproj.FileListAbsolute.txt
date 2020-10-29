@@ -1,0 +1,13 @@
+H:\Users\Yul\Documents\GitHub\windows_mixer\windows_mixer\windows_mixer\bin\Debug\windows_mixer.exe.config
+H:\Users\Yul\Documents\GitHub\windows_mixer\windows_mixer\windows_mixer\bin\Debug\windows_mixer.exe
+H:\Users\Yul\Documents\GitHub\windows_mixer\windows_mixer\windows_mixer\bin\Debug\windows_mixer.pdb
+H:\Users\Yul\Documents\GitHub\windows_mixer\windows_mixer\windows_mixer\obj\Debug\windows_mixer.csprojAssemblyReference.cache
+H:\Users\Yul\Documents\GitHub\windows_mixer\windows_mixer\windows_mixer\obj\Debug\windows_mixer.Properties.Resources.resources
+H:\Users\Yul\Documents\GitHub\windows_mixer\windows_mixer\windows_mixer\obj\Debug\windows_mixer.csproj.GenerateResource.cache
+H:\Users\Yul\Documents\GitHub\windows_mixer\windows_mixer\windows_mixer\obj\Debug\windows_mixer.csproj.CoreCompileInputs.cache
+H:\Users\Yul\Documents\GitHub\windows_mixer\windows_mixer\windows_mixer\obj\Debug\windows_mixer.exe
+H:\Users\Yul\Documents\GitHub\windows_mixer\windows_mixer\windows_mixer\obj\Debug\windows_mixer.pdb
+H:\Users\Yul\Documents\GitHub\windows_mixer\windows_mixer\windows_mixer\bin\Debug\NAudio.dll
+H:\Users\Yul\Documents\GitHub\windows_mixer\windows_mixer\windows_mixer\bin\Debug\NAudio.xml
+H:\Users\Yul\Documents\GitHub\windows_mixer\windows_mixer\windows_mixer\obj\Debug\windows_mixer.csproj.CopyComplete
+H:\Users\Yul\Documents\GitHub\windows_mixer\windows_mixer\windows_mixer\obj\Debug\windows_mixer.Form1.resources
