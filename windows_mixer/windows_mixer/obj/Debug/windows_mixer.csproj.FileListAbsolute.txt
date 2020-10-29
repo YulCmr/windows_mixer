@@ -11,3 +11,5 @@ H:\Users\Yul\Documents\GitHub\windows_mixer\windows_mixer\windows_mixer\bin\Debu
 H:\Users\Yul\Documents\GitHub\windows_mixer\windows_mixer\windows_mixer\bin\Debug\NAudio.xml
 H:\Users\Yul\Documents\GitHub\windows_mixer\windows_mixer\windows_mixer\obj\Debug\windows_mixer.csproj.CopyComplete
 H:\Users\Yul\Documents\GitHub\windows_mixer\windows_mixer\windows_mixer\obj\Debug\windows_mixer.Form1.resources
+H:\Users\Yul\Documents\GitHub\windows_mixer\windows_mixer\windows_mixer\bin\Debug\CSCore.dll
+H:\Users\Yul\Documents\GitHub\windows_mixer\windows_mixer\windows_mixer\bin\Debug\CSCore.xml
